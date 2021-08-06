@@ -55,13 +55,13 @@ namespace Deliverable3
                     userContinue = false;
                 }
 
-                else if (userNumber % 2 == 0 & userNumber >= 2 && userNumber <= 25)
+                else if (userNumber % 2 == 0 & userNumber >= 2 & userNumber <= 25)
                 {
                     Console.WriteLine("The number is even, and less than 25.");
                     userContinue = false;
                 }
 
-                else if (userNumber % 2 == 0 & userNumber >= 26 && userNumber <= 60)
+                else if (userNumber % 2 == 0 & userNumber >= 26 & userNumber <= 60)
                 {
                     Console.WriteLine("...even...even Steven! Isn't that your name? Oh, my apologies, " + userName);
                     userContinue = false;
